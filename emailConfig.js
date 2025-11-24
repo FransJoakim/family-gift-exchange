@@ -1,15 +1,7 @@
 export const emailMap = {
-  Birgit: "birgitloitegaard@gmail.com",
-  Franz: "franztitulaer@gmail.com",
-  Aurora: "auroratitulaer@gmail.com",
-  Patric: "patrickbjorum@gmail.com",
-  "Frans Joakim": "fransjlt@gmail.com",
+  Birgit: process.env.EMAIL_BIRGIT,
+  Franz: process.env.EMAIL_FRANZ,
+  Aurora: process.env.EMAIL_AURORA,
+  Patric: process.env.EMAIL_PATRIC,
+  "Frans Joakim": process.env.EMAIL_FRANS_JOAKIM,
 };
-
-// export const emailMap = {
-//   Birgit: "fransjlt@gmail.com",
-//   Franz: "fransjlt@gmail.com",
-//   Aurora: "fransjlt@gmail.com",
-//   Patric: "fransjlt@gmail.com",
-//   "Frans Joakim": "fransjlt@gmail.com",
-// };
